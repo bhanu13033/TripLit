@@ -1,0 +1,104 @@
+body{
+  background-image: url(../bus2.jpg);
+  background-size:cover;
+}
+.form-1 h1
+{
+  font-family: fantasy:Papyrus;
+  color: white;
+  letter-spacing: 20px;
+}
+#mform{
+  background-color: #000;
+  height: 600px;
+  width: 850px;
+  margin: auto;
+  padding: 20px;
+  opacity: 0.6;
+  border: 3px solid #000;
+  border-radius: 15px;
+}
+#mform h3{
+  border: 1px solid #3399ff;
+  border-radius: 5px;
+  width: 240px;
+  padding:7px;
+}
+::placeholder{color: #fff;}
+#i1 #ig{
+  width: 375px;
+  margin: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline:none;
+  background:transparent;
+  color: #fff;
+}
+#i2 #ig
+{
+  width: 246px;
+  margin: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline:none;
+  background:transparent;
+  color: #fff;
+}
+#i3 #ig{margin:3px}
+#i4 #ig
+{
+  width: 180px;
+  margin: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline:none;
+  background:transparent;
+  color: #fff;
+}
+#i7 #ig
+{
+  width: 180px;
+  margin: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline:none;
+  background:transparent;
+  color: #fff;
+}
+#i5 h3
+{
+  border: 1px solid #3399ff;
+  border-radius: 5px;
+  width: 240px;
+  padding:7px;
+}
+#i6 #ig
+{
+  width: 375px;
+  margin: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline:none;
+  background:transparent;
+  color: #fff;
+}
+#i6 #ig1
+{
+  width: 765px;
+  margin: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline:none;
+  background:transparent;
+  color: #fff;
+}
+#btn{
+  margin-left:41%;
+  margin-top:6%;
+}

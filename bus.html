@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TripLIT-BUS</title>
+    <!--<link rel="stylesheet" href="css/styleindex.css">-->
+    <link rel="stylesheet" href="css/stylebus.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+        <div class="box">
+          <form class="form-1">
+            <h1 class="text-center">TripLIT-BUS</h1>
+            <div id="mform">
+
+              <h3 class="text-white">Booking Details</h3>
+
+              <div id="i1">
+                <input type="text" id="ig" placeholder="From">
+                <input type="text" id="ig" placeholder="To">
+                <div id="i7">
+                  <label class="text-white" for="f">Departure Date & Time :</label>
+                  <input type="datetime-local" id="ig" name="f">
+                </div>
+                <input type="text" id="ig" placeholder="Any Preffered Bus">
+                <select id="ig" style="background:black">
+                  <option value="">Preffered Seating</option>
+                  <option value="">Front</option>
+                  <option value="">Back</option>
+                  <option value="">Middle</option>
+                  <option value="">Middle windowside</option>
+                  <option value="">Window side</option>
+                  <option value="">Front and window side</option>
+                  <option value="">Back and window side</option>
+                </select>
+              </div>
+
+              <div id="i2">
+                <input type="number" id="ig" placeholder="Adult">
+                <input type="number" id="ig" placeholder="Children(2-11 years old)">
+                <input type="number" id="ig" placeholder="Infant(under 2years)">
+              </div>
+
+              <div id="i3">
+                <span class="text-primary" id="ig">-Trip type-</span>
+                <label class="text-white" for="ig">One Way</label>
+                <input type="radio" id="ig" name="b">
+                <label class="text-white" for="ig">Round Trip</label>
+                <input type="radio" id="ig" name="b">
+              </div>
+
+              <div id="i4">
+                <label class="text-white" for="ig">Return Date & Time :</label>
+                <input type="datetime-local" id="ig">
+              </div>
+
+              <div id="i5">
+                <h3 class="text-white">Personal Details :</h3>
+              </div>
+
+              <div id="i6">
+                <input type="text" id="ig" placeholder="Full Name and Age of each person">
+                <input type="number" id="ig" placeholder="Phone Number of each person in order of names">
+                <input type="email" id="ig1" placeholder="Email of each person in order of names">
+              </div>
+
+              <div id="btn">
+                <button type="submit" class="btn btn-primary text-white">Submit</button>
+                <button type="reset" class="btn btn-warning text-white">Clear</button>
+              </div>
+
+            </div >
+          </form>
+        </div>
+  </body>
+</html>
